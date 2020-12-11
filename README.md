@@ -10,7 +10,7 @@ Just flash the code onto an ESP-board, after you have edited the wifi-credential
 And connect the LED-Stripe to Pin "D2".
 After boot you are able to do a HTTP-Request:
 
-`http://IP_OF_YOUR_DEVICE/signal?r=128&g=0&b=255&r=3&t=2`
+`http://IP_OF_YOUR_DEVICE/signal?r=128&g=0&b=255&s=3&t=2`
 
 ### Parameters
 * r(0-255) - red tone of your leds
